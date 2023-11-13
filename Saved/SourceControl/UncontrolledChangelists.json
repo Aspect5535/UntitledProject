@@ -5,9 +5,16 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/AspectTest.umap",
+				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/BP_PlayerSurvivor.uasset",
+				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/BP_PlayerController.uasset",
+				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Testing.uasset",
+				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Input/IMC_Default.uasset",
+				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/FirstPerson/Input/IMC_Default.uasset",
+				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/PlayerCharacter.uasset",
+				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset",
 				"C:/project vouxen/UntitledProject/Content/Tntisthefog/TntisthefogTesting.umap",
 				"C:/project vouxen/UntitledProject/Content/Tntisthefog/PlayerCrap/Control/PlayerControl.uasset",
-				"C:/Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/AspectTest.umap",
 				"C:/Users/minec/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/MaterialSphere.uasset"
 			]
 		}
