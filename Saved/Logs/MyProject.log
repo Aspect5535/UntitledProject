@@ -1570,3 +1570,547 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.16-03.11.32:125][226]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
 [2023.11.16-03.11.32:125][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.11.16-03.11.32:308][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.11.16-03.12.14:786][747]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.16-03.12.14:790][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.16-03.12.14:790][747]PIE: New page: PIE session: LandscapeLevel (Nov 15, 2023, 11:12:14 AM)
+[2023.11.16-03.12.14:813][747]LogPlayLevel: Creating play world package: /Game/Aspect/UEDPIE_0_LandscapeLevel
+[2023.11.16-03.12.14:819][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006053s)
+[2023.11.16-03.12.14:819][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Aspect/LandscapeLevel.LandscapeLevel to /Game/Aspect/UEDPIE_0_LandscapeLevel.LandscapeLevel (0.006087s)
+[2023.11.16-03.12.14:821][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.11.16-03.12.14:823][747]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.16-03.12.14:823][747]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.16-03.12.14:823][747]LogAIModule: Creating AISystem for world LandscapeLevel
+[2023.11.16-03.12.14:823][747]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2023.11.16-03.12.14:823][747]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.11.16-03.12.14:823][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.16-03.12.14:823][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.16-03.12.14:823][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.16-03.12.14:823][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.16-03.12.14:823][747]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.16-03.12.14:823][747]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.16-03.12.14:823][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.16-03.12.14:823][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.16-03.12.14:823][747]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.16-03.12.14:823][747]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.16-03.12.14:823][747]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.16-03.12.14:824][747]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.16-03.12.14:837][747]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Beats Solo³)
+[2023.11.16-03.12.14:837][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.16-03.12.14:837][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.16-03.12.14:837][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.16-03.12.14:838][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.11.16-03.12.14:838][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.11.16-03.12.14:839][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.11.16-03.12.14:839][747]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.11.16-03.12.14:839][747]LogInit: FAudioDevice initialized with ID 6.
+[2023.11.16-03.12.14:839][747]LogAudio: Display: Audio Device (ID: 6) registered with world 'LandscapeLevel'.
+[2023.11.16-03.12.14:839][747]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.11.16-03.12.14:840][747]LogLoad: Game class is 'Testing_C'
+[2023.11.16-03.12.14:842][747]LogWorld: Bringing World /Game/Aspect/UEDPIE_0_LandscapeLevel.LandscapeLevel up for play (max tick rate 0) at 2023.11.15-19.12.14
+[2023.11.16-03.12.14:843][747]LogWorld: Bringing up level for play took: 0.001716
+[2023.11.16-03.12.14:844][747]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.11.16-03.12.14:844][747]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.16-03.12.14:844][747]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.16-03.12.14:844][747]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.16-03.12.14:845][747]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.16-03.12.14:845][747]PIE: Server logged in
+[2023.11.16-03.12.14:846][747]PIE: Play in editor total start time 0.055 seconds.
+[2023.11.16-03.12.17:933][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.16-03.12.17:933][101]LogWorld: BeginTearingDown for /Game/Aspect/UEDPIE_0_LandscapeLevel
+[2023.11.16-03.12.17:933][101]LogWorld: UWorld::CleanupWorld for LandscapeLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.16-03.12.17:933][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.16-03.12.17:936][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.16-03.12.17:937][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.16-03.12.17:939][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.16-03.12.17:939][101]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.11.16-03.12.17:939][101]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.16-03.12.17:940][101]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.16-03.12.17:944][101]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.11.16-03.12.18:013][107]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.11.16-03.12.18:399][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.12.18:451][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.11.16-03.12.18:497][151]LogSavePackage: Moving output files for package: /Game/Aspect/LandscapeLevel
+[2023.11.16-03.12.18:497][151]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/LandscapeLevelDDD4EDCC421C6C0A7CCC81906D35E1F7.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/LandscapeLevel.umap'
+[2023.11.16-03.12.18:501][151]LogFileHelpers: Saving map 'LandscapeLevel' took 0.065
+[2023.11.16-03.12.18:506][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 1.20 sec)
+[2023.11.16-03.12.18:507][151]AssetCheck: New page: Asset Save: LandscapeLevel
+[2023.11.16-03.12.18:507][151]LogContentValidation: Display: Validating /Script/Engine.World /Game/Aspect/LandscapeLevel.LandscapeLevel
+[2023.11.16-03.12.23:347][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2023.11.16-03.12.59:805][341]LogDerivedDataCache: C:/Users/minec/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:02:39.176 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 85532 files in 80067 folders with total size 6836 MiB.
+[2023.11.16-03.13.29:649][869]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.16-03.13.29:661][869]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.16-03.13.29:666][870]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.16-03.13.29:714][876]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2023.11.16-03.13.29:714][876]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.16-03.13.33:280][300]LogContentBrowser: Attempting asset rename: NewFolder -> Rocks
+[2023.11.16-03.13.37:404][633]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/minec/Downloads/zxczxc.fbx)
+[2023.11.16-03.13.37:424][633]LogFbx: Loading FBX Scene from ../../../../../../Users/minec/Downloads/zxczxc.fbx
+[2023.11.16-03.13.37:449][633]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.16-03.13.38:930][633]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.16-03.13.38:959][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.11.16-03.13.38:960][633]LogUObjectGlobals: Force Deleting 0 Package(s):
+[2023.11.16-03.13.39:023][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.11.16-03.13.39:023][633]FBXImport: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material '_0Mat' was renamed '_0Mat_ncl1_1' 
+[2023.11.16-03.13.39:023][633]FBXImport: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'sprite_0041_1Mat' was renamed 'sprite_0041_1Mat_ncl1_1' 
+[2023.11.16-03.13.39:023][633]FBXImport: Import was canceled. 
+[2023.11.16-03.13.39:069][633]LogAssetTools: The import task was canceled.
+[2023.11.16-03.13.40:132][726]LogSlate: Window 'Message Log' being destroyed
+[2023.11.16-03.13.40:135][726]LogSlate: Window 'Message Log' being destroyed
+[2023.11.16-03.13.50:732][935]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/minec/Downloads/Rock_preset.fbx)
+[2023.11.16-03.13.50:737][935]LogFbx: Loading FBX Scene from ../../../../../../Users/minec/Downloads/Rock_preset.fbx
+[2023.11.16-03.13.50:745][935]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.16-03.13.55:771][935]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.16-03.13.55:841][935]LogFbx: Display: Triangulating static mesh Icosphere
+[2023.11.16-03.13.55:847][935]LogStaticMesh: Display: Building static mesh Rock_preset_Icosphere...
+[2023.11.16-03.13.55:853][935]LogStaticMesh: Built static mesh [0.01s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere.Rock_preset_Icosphere
+[2023.11.16-03.13.55:859][935]LogFbx: Display: Triangulating static mesh Icosphere.001
+[2023.11.16-03.13.55:862][935]LogStaticMesh: Display: Building static mesh Rock_preset_Icosphere_001...
+[2023.11.16-03.13.55:866][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_001.Rock_preset_Icosphere_001
+[2023.11.16-03.13.55:869][935]LogFbx: Display: Triangulating static mesh Icosphere.002
+[2023.11.16-03.13.55:872][935]LogStaticMesh: Display: Building static mesh Rock_preset_Icosphere_002...
+[2023.11.16-03.13.55:875][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_002.Rock_preset_Icosphere_002
+[2023.11.16-03.13.55:878][935]LogFbx: Display: Triangulating static mesh Icosphere.003
+[2023.11.16-03.13.55:880][935]LogStaticMesh: Display: Building static mesh Rock_preset_Icosphere_003...
+[2023.11.16-03.13.55:883][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_003.Rock_preset_Icosphere_003
+[2023.11.16-03.13.55:886][935]LogFbx: Display: Triangulating static mesh Icosphere.004
+[2023.11.16-03.13.55:888][935]LogStaticMesh: Display: Building static mesh Rock_preset_Icosphere_004...
+[2023.11.16-03.13.55:891][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_004.Rock_preset_Icosphere_004
+[2023.11.16-03.13.55:893][935]LogFbx: Display: Triangulating static mesh Icosphere.005
+[2023.11.16-03.13.55:897][935]LogStaticMesh: Display: Building static mesh Rock_preset_Icosphere_005...
+[2023.11.16-03.13.55:901][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_005.Rock_preset_Icosphere_005
+[2023.11.16-03.13.55:904][935]LogFbx: Display: Triangulating static mesh Icosphere.006
+[2023.11.16-03.13.55:908][935]LogStaticMesh: Display: Building static mesh Rock_preset_Icosphere_006...
+[2023.11.16-03.13.55:912][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_006.Rock_preset_Icosphere_006
+[2023.11.16-03.13.55:915][935]LogFbx: Display: Triangulating static mesh Icosphere.007
+[2023.11.16-03.13.55:919][935]LogStaticMesh: Display: Building static mesh Rock_preset_Icosphere_007...
+[2023.11.16-03.13.55:923][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_007.Rock_preset_Icosphere_007
+[2023.11.16-03.13.55:928][935]LogFbx: Display: Triangulating static mesh Sphere
+[2023.11.16-03.13.55:932][935]LogStaticMesh: Display: Building static mesh Rock_preset_Sphere...
+[2023.11.16-03.13.55:937][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere.Rock_preset_Sphere
+[2023.11.16-03.13.55:941][935]LogFbx: Display: Triangulating static mesh Sphere.001
+[2023.11.16-03.13.55:947][935]LogStaticMesh: Display: Building static mesh Rock_preset_Sphere_001...
+[2023.11.16-03.13.55:951][935]LogStaticMesh: Built static mesh [0.01s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_001.Rock_preset_Sphere_001
+[2023.11.16-03.13.55:956][935]LogFbx: Display: Triangulating static mesh Sphere.002
+[2023.11.16-03.13.55:959][935]LogStaticMesh: Display: Building static mesh Rock_preset_Sphere_002...
+[2023.11.16-03.13.55:963][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_002.Rock_preset_Sphere_002
+[2023.11.16-03.13.55:968][935]LogFbx: Display: Triangulating static mesh Sphere.003
+[2023.11.16-03.13.55:971][935]LogStaticMesh: Display: Building static mesh Rock_preset_Sphere_003...
+[2023.11.16-03.13.55:976][935]LogStaticMesh: Built static mesh [0.01s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_003.Rock_preset_Sphere_003
+[2023.11.16-03.13.55:979][935]LogFbx: Display: Triangulating static mesh Sphere.004
+[2023.11.16-03.13.55:980][935]LogStaticMesh: Display: Building static mesh Rock_preset_Sphere_004...
+[2023.11.16-03.13.55:984][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_004.Rock_preset_Sphere_004
+[2023.11.16-03.13.55:988][935]LogFbx: Display: Triangulating static mesh Sphere.005
+[2023.11.16-03.13.55:991][935]LogStaticMesh: Display: Building static mesh Rock_preset_Sphere_005...
+[2023.11.16-03.13.55:995][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_005.Rock_preset_Sphere_005
+[2023.11.16-03.13.55:999][935]LogFbx: Display: Triangulating static mesh bisect
+[2023.11.16-03.13.56:002][935]LogStaticMesh: Display: Building static mesh Rock_preset_bisect...
+[2023.11.16-03.13.56:006][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect
+[2023.11.16-03.13.56:009][935]LogFbx: Display: Triangulating static mesh Cube
+[2023.11.16-03.13.56:013][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube...
+[2023.11.16-03.13.56:017][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube.Rock_preset_Cube
+[2023.11.16-03.13.56:021][935]LogFbx: Display: Triangulating static mesh Cube.001
+[2023.11.16-03.13.56:025][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_001...
+[2023.11.16-03.13.56:028][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_001.Rock_preset_Cube_001
+[2023.11.16-03.13.56:033][935]LogFbx: Display: Triangulating static mesh Cube.002
+[2023.11.16-03.13.56:036][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_002...
+[2023.11.16-03.13.56:040][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_002.Rock_preset_Cube_002
+[2023.11.16-03.13.56:044][935]LogFbx: Display: Triangulating static mesh Cone
+[2023.11.16-03.13.56:045][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cone...
+[2023.11.16-03.13.56:049][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone.Rock_preset_Cone
+[2023.11.16-03.13.56:053][935]LogFbx: Display: Triangulating static mesh Cylinder
+[2023.11.16-03.13.56:055][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cylinder...
+[2023.11.16-03.13.56:058][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cylinder.Rock_preset_Cylinder
+[2023.11.16-03.13.56:062][935]LogFbx: Display: Triangulating static mesh Cylinder.001
+[2023.11.16-03.13.56:063][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cylinder_001...
+[2023.11.16-03.13.56:069][935]LogStaticMesh: Built static mesh [0.01s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cylinder_001.Rock_preset_Cylinder_001
+[2023.11.16-03.13.56:074][935]LogFbx: Display: Triangulating static mesh Cone.001
+[2023.11.16-03.13.56:074][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cone_001...
+[2023.11.16-03.13.56:077][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone_001.Rock_preset_Cone_001
+[2023.11.16-03.13.56:081][935]LogFbx: Display: Triangulating static mesh Cone.002
+[2023.11.16-03.13.56:083][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cone_002...
+[2023.11.16-03.13.56:088][935]LogStaticMesh: Built static mesh [0.01s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone_002.Rock_preset_Cone_002
+[2023.11.16-03.13.56:093][935]LogFbx: Display: Triangulating static mesh Cube.003
+[2023.11.16-03.13.56:094][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_003...
+[2023.11.16-03.13.56:097][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.Rock_preset_Cube_003
+[2023.11.16-03.13.56:100][935]LogFbx: Display: Triangulating static mesh Cube.004
+[2023.11.16-03.13.56:101][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_004...
+[2023.11.16-03.13.56:104][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_004.Rock_preset_Cube_004
+[2023.11.16-03.13.56:108][935]LogFbx: Display: Triangulating static mesh Cube.006
+[2023.11.16-03.13.56:110][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_006...
+[2023.11.16-03.13.56:111][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_006.Rock_preset_Cube_006
+[2023.11.16-03.13.56:116][935]LogFbx: Display: Triangulating static mesh Cube.007
+[2023.11.16-03.13.56:117][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_007...
+[2023.11.16-03.13.56:119][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_007.Rock_preset_Cube_007
+[2023.11.16-03.13.56:121][935]LogFbx: Display: Triangulating static mesh Cube.008
+[2023.11.16-03.13.56:123][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_008...
+[2023.11.16-03.13.56:126][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_008.Rock_preset_Cube_008
+[2023.11.16-03.13.56:129][935]LogFbx: Display: Triangulating static mesh Cube.009
+[2023.11.16-03.13.56:130][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_009...
+[2023.11.16-03.13.56:132][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_009.Rock_preset_Cube_009
+[2023.11.16-03.13.56:135][935]LogFbx: Display: Triangulating static mesh Cube.010
+[2023.11.16-03.13.56:136][935]LogStaticMesh: Display: Building static mesh Rock_preset_Cube_010...
+[2023.11.16-03.13.56:138][935]LogStaticMesh: Built static mesh [0.00s] /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_010.Rock_preset_Cube_010
+[2023.11.16-03.13.57:341][935]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.11.16-03.13.58:738][ 52]LogSlate: Window 'Message Log' being destroyed
+[2023.11.16-03.13.58:750][ 52]LogSlate: Window 'Message Log' being destroyed
+[2023.11.16-03.14.00:118][196]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.Rock_preset_Cube_003
+[2023.11.16-03.14.00:118][196]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.Rock_preset_Cube_003
+[2023.11.16-03.14.00:118][196]LogActorFactory: Actor Factory spawned StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.Rock_preset_Cube_003 as actor: StaticMeshActor /Game/Aspect/LandscapeLevel.LandscapeLevel:PersistentLevel.StaticMeshActor_0
+[2023.11.16-03.14.00:469][236]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.Rock_preset_Cube_003
+[2023.11.16-03.14.00:469][236]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.Rock_preset_Cube_003
+[2023.11.16-03.14.00:470][236]LogActorFactory: Actor Factory spawned StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.Rock_preset_Cube_003 as actor: StaticMeshActor /Game/Aspect/LandscapeLevel.LandscapeLevel:PersistentLevel.StaticMeshActor_5
+[2023.11.16-03.14.09:155][208]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect
+[2023.11.16-03.14.09:155][208]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect
+[2023.11.16-03.14.09:155][208]LogActorFactory: Actor Factory spawned StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect as actor: StaticMeshActor /Game/Aspect/LandscapeLevel.LandscapeLevel:PersistentLevel.StaticMeshActor_6
+[2023.11.16-03.14.09:679][265]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect
+[2023.11.16-03.14.09:679][265]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect
+[2023.11.16-03.14.09:680][265]LogActorFactory: Actor Factory spawned StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect as actor: StaticMeshActor /Game/Aspect/LandscapeLevel.LandscapeLevel:PersistentLevel.StaticMeshActor_7
+[2023.11.16-03.14.11:823][495]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect
+[2023.11.16-03.14.11:872][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.16-03.14.11:872][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.16-03.14.12:145][495]LogViewport: Scene viewport resized to 1401x772, mode Windowed.
+[2023.11.16-03.14.15:416][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.16-03.14.15:420][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.14.15:482][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.11.16-03.14.15:529][799]LogSavePackage: Moving output files for package: /Game/Aspect/LandscapeLevel
+[2023.11.16-03.14.15:529][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/LandscapeLevelFBBAE30448ABD27451EA878171E80E8C.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/LandscapeLevel.umap'
+[2023.11.16-03.14.15:533][799]LogFileHelpers: Saving map 'LandscapeLevel' took 0.065
+[2023.11.16-03.14.15:542][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_010
+[2023.11.16-03.14.15:542][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_010F75B2F604583D8B923C9A1A1580F3ABF.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_010.uasset'
+[2023.11.16-03.14.15:551][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere
+[2023.11.16-03.14.15:551][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_IcosphereA405D59A4CC5F1F28A5B6195A6389AE7.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere.uasset'
+[2023.11.16-03.14.15:558][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_001
+[2023.11.16-03.14.15:558][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Icosphere_00120E5699C4303F9A2BFCA19879C684619.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_001.uasset'
+[2023.11.16-03.14.15:566][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_002
+[2023.11.16-03.14.15:566][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Icosphere_002C8B81B3D42BEC2FED9E58AA3FDF718B5.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_002.uasset'
+[2023.11.16-03.14.15:573][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_003
+[2023.11.16-03.14.15:573][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Icosphere_003691ED6CD4966EE3165F985B48BBF2D6F.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_003.uasset'
+[2023.11.16-03.14.15:581][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_004
+[2023.11.16-03.14.15:581][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Icosphere_00456C0AE06403BE3925423D4BA30412E8A.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_004.uasset'
+[2023.11.16-03.14.15:588][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_005
+[2023.11.16-03.14.15:588][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Icosphere_0051B8B18ED47C233A40A8AA38403F36319.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_005.uasset'
+[2023.11.16-03.14.15:595][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_006
+[2023.11.16-03.14.15:595][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Icosphere_00604814CAF436375C436441FB9D51D1133.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_006.uasset'
+[2023.11.16-03.14.15:602][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_007
+[2023.11.16-03.14.15:602][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Icosphere_0071E3771014B4458D10EDCE3B7069EB006.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_007.uasset'
+[2023.11.16-03.14.15:609][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere
+[2023.11.16-03.14.15:609][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_SphereAE7680CE4FACC8C22A55BC94AFB87919.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere.uasset'
+[2023.11.16-03.14.15:617][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_001
+[2023.11.16-03.14.15:617][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Sphere_0012134226F47291773566A44BB74CC1186.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_001.uasset'
+[2023.11.16-03.14.15:623][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_002
+[2023.11.16-03.14.15:623][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Sphere_002CA032DF14A9AFAB2FF123C9768933871.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_002.uasset'
+[2023.11.16-03.14.15:630][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_003
+[2023.11.16-03.14.15:630][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Sphere_00311817C6F49CC4EB0446F518D1B1B5442.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_003.uasset'
+[2023.11.16-03.14.15:638][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_004
+[2023.11.16-03.14.15:638][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Sphere_004DCDE5602439E8F52C06D528B39DFDC55.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_004.uasset'
+[2023.11.16-03.14.15:645][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_005
+[2023.11.16-03.14.15:645][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Sphere_005D488AB444EE43D0D3C188592722B4820.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_005.uasset'
+[2023.11.16-03.14.15:652][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect
+[2023.11.16-03.14.15:652][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_bisectC156DB6E4D28C41F3BBA0BA464621A8F.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.uasset'
+[2023.11.16-03.14.15:660][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube
+[2023.11.16-03.14.15:660][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube8EBAFD354CDF9C18973A3BBFC7842068.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube.uasset'
+[2023.11.16-03.14.15:668][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_001
+[2023.11.16-03.14.15:668][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_0013A59855E4B490C90465DBBB7054DC6B0.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_001.uasset'
+[2023.11.16-03.14.15:675][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_002
+[2023.11.16-03.14.15:675][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_002AF8A10B74CF83B6945E8358BB30D63CD.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_002.uasset'
+[2023.11.16-03.14.15:683][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone
+[2023.11.16-03.14.15:683][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_ConeD201DB5E43E9A38FA54378B363E7BDE0.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone.uasset'
+[2023.11.16-03.14.15:690][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cylinder
+[2023.11.16-03.14.15:690][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cylinder6D83D81240684514BDE138BE722A5387.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cylinder.uasset'
+[2023.11.16-03.14.15:697][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cylinder_001
+[2023.11.16-03.14.15:698][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cylinder_001AB70CDE54C6B9014A6D49FAF4A2809C3.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cylinder_001.uasset'
+[2023.11.16-03.14.15:705][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone_001
+[2023.11.16-03.14.15:705][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cone_0019D2F05FA4572F84FC0DC78AE01AA22A8.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone_001.uasset'
+[2023.11.16-03.14.15:712][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone_002
+[2023.11.16-03.14.15:712][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cone_002623919234AF582740ACE46AFEE79FF66.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone_002.uasset'
+[2023.11.16-03.14.15:718][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003
+[2023.11.16-03.14.15:718][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_00382BC1F5040867AE5B68C09B44ED29B9B.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.uasset'
+[2023.11.16-03.14.15:726][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_004
+[2023.11.16-03.14.15:726][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_004596700F44F0A0CF742ABF2BA6FD0B9A2.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_004.uasset'
+[2023.11.16-03.14.15:733][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_006
+[2023.11.16-03.14.15:733][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_0065CAA6CDE4E6A8684F68E3796F53C97EB.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_006.uasset'
+[2023.11.16-03.14.15:740][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_007
+[2023.11.16-03.14.15:740][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_007FCE7870F48E8474C2482A1AA57D9F9C7.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_007.uasset'
+[2023.11.16-03.14.15:748][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_008
+[2023.11.16-03.14.15:748][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_0081D5CEBF54D7E7D23A94CE2B5BD9AD674.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_008.uasset'
+[2023.11.16-03.14.15:755][799]LogSavePackage: Moving output files for package: /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_009
+[2023.11.16-03.14.15:755][799]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/Rock_preset_Cube_00922B8F5B14662CB5CD847BC91855011B1.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_009.uasset'
+[2023.11.16-03.14.15:760][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 1.54 sec)
+[2023.11.16-03.14.15:764][799]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.World /Game/Aspect/LandscapeLevel.LandscapeLevel
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_010.Rock_preset_Cube_010
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere.Rock_preset_Icosphere
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_001.Rock_preset_Icosphere_001
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_002.Rock_preset_Icosphere_002
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_003.Rock_preset_Icosphere_003
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_004.Rock_preset_Icosphere_004
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_005.Rock_preset_Icosphere_005
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_006.Rock_preset_Icosphere_006
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Icosphere_007.Rock_preset_Icosphere_007
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere.Rock_preset_Sphere
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_001.Rock_preset_Sphere_001
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_002.Rock_preset_Sphere_002
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_003.Rock_preset_Sphere_003
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_004.Rock_preset_Sphere_004
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Sphere_005.Rock_preset_Sphere_005
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_bisect.Rock_preset_bisect
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube.Rock_preset_Cube
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_001.Rock_preset_Cube_001
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_002.Rock_preset_Cube_002
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone.Rock_preset_Cone
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cylinder.Rock_preset_Cylinder
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cylinder_001.Rock_preset_Cylinder_001
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone_001.Rock_preset_Cone_001
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cone_002.Rock_preset_Cone_002
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_003.Rock_preset_Cube_003
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_004.Rock_preset_Cube_004
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_006.Rock_preset_Cube_006
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_007.Rock_preset_Cube_007
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_008.Rock_preset_Cube_008
+[2023.11.16-03.14.15:764][799]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Aspect/Foliage/Mesh/Rocks/Rock_preset_Cube_009.Rock_preset_Cube_009
+[2023.11.16-03.14.16:689][884]LogSlate: Window 'Rock_preset_bisect' being destroyed
+[2023.11.16-03.14.16:721][884]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.11.16-03.14.16:721][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.16-03.14.21:648][441]Cmd: DELETE
+[2023.11.16-03.14.21:648][441]Cmd: ACTOR DELETE
+[2023.11.16-03.14.21:658][441]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.11.16-03.14.21:660][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.11.16-03.14.21:665][441]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2023.11.16-03.14.22:913][583]Cmd: DELETE
+[2023.11.16-03.14.22:913][583]Cmd: ACTOR DELETE
+[2023.11.16-03.14.22:919][583]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.11.16-03.14.22:921][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.11.16-03.14.22:923][583]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.11.16-03.14.24:034][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2023.11.16-03.14.24:037][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.14.24:099][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.11.16-03.14.24:144][712]LogSavePackage: Moving output files for package: /Game/Aspect/LandscapeLevel
+[2023.11.16-03.14.24:145][712]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/LandscapeLevel37C140DC4D537482BCFCD8ABC44D42B3.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/LandscapeLevel.umap'
+[2023.11.16-03.14.24:149][712]LogFileHelpers: Saving map 'LandscapeLevel' took 0.065
+[2023.11.16-03.14.24:153][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 1.66 sec)
+[2023.11.16-03.14.24:154][712]AssetCheck: New page: Asset Save: LandscapeLevel
+[2023.11.16-03.14.24:154][712]LogContentValidation: Display: Validating /Script/Engine.World /Game/Aspect/LandscapeLevel.LandscapeLevel
+[2023.11.16-03.14.40:920][ 84]Cmd: DELETE
+[2023.11.16-03.14.40:920][ 84]Cmd: ACTOR DELETE
+[2023.11.16-03.14.40:925][ 84]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.11.16-03.14.40:927][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.11.16-03.14.40:929][ 84]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.11.16-03.14.41:928][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.11.16-03.14.41:930][196]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.14.42:002][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.11.16-03.14.42:047][196]LogSavePackage: Moving output files for package: /Game/Aspect/LandscapeLevel
+[2023.11.16-03.14.42:048][196]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/LandscapeLevel407D46E14F84367155B25BB8F1821277.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/LandscapeLevel.umap'
+[2023.11.16-03.14.42:053][196]LogFileHelpers: Saving map 'LandscapeLevel' took 0.066
+[2023.11.16-03.14.42:057][196]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 1.78 sec)
+[2023.11.16-03.14.42:058][196]AssetCheck: New page: Asset Save: LandscapeLevel
+[2023.11.16-03.14.42:058][196]LogContentValidation: Display: Validating /Script/Engine.World /Game/Aspect/LandscapeLevel.LandscapeLevel
+[2023.11.16-03.14.43:318][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2023.11.16-03.14.48:633][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.16-03.14.48:637][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.16-03.14.48:637][902]PIE: New page: PIE session: LandscapeLevel (Nov 15, 2023, 11:14:48 AM)
+[2023.11.16-03.14.48:673][902]LogPlayLevel: Creating play world package: /Game/Aspect/UEDPIE_0_LandscapeLevel
+[2023.11.16-03.14.48:679][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006605s)
+[2023.11.16-03.14.48:679][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Aspect/LandscapeLevel.LandscapeLevel to /Game/Aspect/UEDPIE_0_LandscapeLevel.LandscapeLevel (0.006638s)
+[2023.11.16-03.14.48:684][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.11.16-03.14.48:684][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.16-03.14.48:684][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.16-03.14.48:685][902]LogAIModule: Creating AISystem for world LandscapeLevel
+[2023.11.16-03.14.48:685][902]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2023.11.16-03.14.48:685][902]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.11.16-03.14.48:685][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.16-03.14.48:685][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.16-03.14.48:685][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.16-03.14.48:685][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.16-03.14.48:685][902]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.16-03.14.48:685][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.16-03.14.48:685][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.16-03.14.48:685][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.16-03.14.48:685][902]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.16-03.14.48:685][902]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.16-03.14.48:685][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.16-03.14.48:687][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.16-03.14.48:701][902]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Beats Solo³)
+[2023.11.16-03.14.48:701][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.16-03.14.48:701][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.16-03.14.48:701][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.16-03.14.48:701][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.11.16-03.14.48:701][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.11.16-03.14.48:703][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.11.16-03.14.48:703][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.11.16-03.14.48:703][902]LogInit: FAudioDevice initialized with ID 7.
+[2023.11.16-03.14.48:703][902]LogAudio: Display: Audio Device (ID: 7) registered with world 'LandscapeLevel'.
+[2023.11.16-03.14.48:703][902]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.11.16-03.14.48:705][902]LogLoad: Game class is 'Testing_C'
+[2023.11.16-03.14.48:706][902]LogWorld: Bringing World /Game/Aspect/UEDPIE_0_LandscapeLevel.LandscapeLevel up for play (max tick rate 0) at 2023.11.15-19.14.48
+[2023.11.16-03.14.48:706][902]LogWorld: Bringing up level for play took: 0.001710
+[2023.11.16-03.14.48:707][902]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.11.16-03.14.48:708][902]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.16-03.14.48:708][902]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.16-03.14.48:708][902]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.16-03.14.48:708][902]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.16-03.14.48:708][902]PIE: Server logged in
+[2023.11.16-03.14.48:709][902]PIE: Play in editor total start time 0.072 seconds.
+[2023.11.16-03.14.53:083][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.16-03.14.53:083][381]LogWorld: BeginTearingDown for /Game/Aspect/UEDPIE_0_LandscapeLevel
+[2023.11.16-03.14.53:083][381]LogWorld: UWorld::CleanupWorld for LandscapeLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.16-03.14.53:084][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.16-03.14.53:086][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.16-03.14.53:087][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.16-03.14.53:090][381]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.16-03.14.53:090][381]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.11.16-03.14.53:090][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.11.16-03.14.53:091][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.11.16-03.14.53:094][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.16-03.14.53:097][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.11.16-03.14.53:168][387]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.11.16-03.14.56:998][834]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Aspect/BP_PlayerSurvivor.BP_PlayerSurvivor
+[2023.11.16-03.14.56:998][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.16-03.14.56:998][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.16-03.14.57:008][834]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: ================================================
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Total job queries 290, among them cache hits 82 (28.28%)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Tracking 208 distinct input hashes that result in 152 distinct outputs (73.08%)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: RAM used: 4.58 MiB of 819.20 MiB budget. Usage: 0.56%
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Shaders Compiled: 26
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Average time worker was idle: 21.41 s
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.05 s
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Job execution time: average 0.28 s, max 0.46 s
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Job life time (pending + execution): average 0.30 s, max 0.47
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Shader code size: average 30.548 KiB, min 3.59 KiB, max 45.551 KiB
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.51 s
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Jobs were issued in 26 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Average processing rate: 17.17 jobs/sec
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Total thread time: 3.865 s
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Total thread preprocess time: 0.457 s
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Percentage time preprocessing: 11.83%
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Effective parallelization: 2.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    2 times, average 0.18 sec, max 0.19 sec, min 0.17 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.17 sec, max 0.19 sec, min 0.14 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    2 times, average 0.16 sec, max 0.17 sec, min 0.15 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.16 sec, max 0.18 sec, min 0.13 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.09% of total time (compiled    3 times, average 0.17 sec, max 0.19 sec, min 0.14 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.57% of total time (compiled    3 times, average 0.16 sec, max 0.18 sec, min 0.13 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.18% of total time (compiled    3 times, average 0.14 sec, max 0.15 sec, min 0.14 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 9.89% of total time (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display:                                                  FVelocityVS - 9.36% of total time (compiled    2 times, average 0.18 sec, max 0.19 sec, min 0.17 sec)
+[2023.11.16-03.15.00:579][170]LogShaderCompilers: Display: ================================================
+[2023.11.16-03.15.06:072][820]BlueprintLog: New page: Compile BP_PlayerSurvivor
+[2023.11.16-03.15.06:089][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.11.16-03.15.06:948][893]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.16-03.15.06:955][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.16-03.15.06:955][893]PIE: New page: PIE session: LandscapeLevel (Nov 15, 2023, 11:15:06 AM)
+[2023.11.16-03.15.06:955][893]LogPlayLevel: Creating play world package: /Game/Aspect/UEDPIE_0_LandscapeLevel
+[2023.11.16-03.15.06:965][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009670s)
+[2023.11.16-03.15.06:965][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Aspect/LandscapeLevel.LandscapeLevel to /Game/Aspect/UEDPIE_0_LandscapeLevel.LandscapeLevel (0.009725s)
+[2023.11.16-03.15.06:970][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.11.16-03.15.06:971][893]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.16-03.15.06:971][893]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.16-03.15.06:971][893]LogAIModule: Creating AISystem for world LandscapeLevel
+[2023.11.16-03.15.06:972][893]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2023.11.16-03.15.06:972][893]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.11.16-03.15.06:972][893]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.16-03.15.06:972][893]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.16-03.15.06:972][893]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.16-03.15.06:972][893]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.16-03.15.06:972][893]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.16-03.15.06:972][893]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.16-03.15.06:972][893]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.16-03.15.06:972][893]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.16-03.15.06:972][893]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.16-03.15.06:972][893]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.16-03.15.06:972][893]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.16-03.15.06:974][893]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.16-03.15.06:989][893]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Beats Solo³)
+[2023.11.16-03.15.06:991][893]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.16-03.15.06:991][893]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.16-03.15.06:991][893]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.16-03.15.07:001][893]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.11.16-03.15.07:001][893]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.11.16-03.15.07:002][893]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.11.16-03.15.07:002][893]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.11.16-03.15.07:002][893]LogInit: FAudioDevice initialized with ID 8.
+[2023.11.16-03.15.07:002][893]LogAudio: Display: Audio Device (ID: 8) registered with world 'LandscapeLevel'.
+[2023.11.16-03.15.07:002][893]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.11.16-03.15.07:004][893]LogLoad: Game class is 'Testing_C'
+[2023.11.16-03.15.07:005][893]LogWorld: Bringing World /Game/Aspect/UEDPIE_0_LandscapeLevel.LandscapeLevel up for play (max tick rate 0) at 2023.11.15-19.15.07
+[2023.11.16-03.15.07:005][893]LogWorld: Bringing up level for play took: 0.001464
+[2023.11.16-03.15.07:007][893]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.11.16-03.15.07:007][893]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.16-03.15.07:007][893]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.16-03.15.07:007][893]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.16-03.15.07:008][893]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.16-03.15.07:008][893]PIE: Server logged in
+[2023.11.16-03.15.07:008][893]PIE: Play in editor total start time 0.054 seconds.
+[2023.11.16-03.15.12:413][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.16-03.15.12:413][526]LogWorld: BeginTearingDown for /Game/Aspect/UEDPIE_0_LandscapeLevel
+[2023.11.16-03.15.12:413][526]LogWorld: UWorld::CleanupWorld for LandscapeLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.16-03.15.12:414][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.16-03.15.12:416][526]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.16-03.15.12:417][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.16-03.15.12:424][526]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.16-03.15.12:424][526]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.11.16-03.15.12:424][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.16-03.15.12:425][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.16-03.15.12:428][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.16-03.15.12:431][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.11.16-03.15.12:488][530]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.11.16-03.15.12:885][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.16-03.15.12:888][577]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.15.12:950][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Aspect/BP_PlayerSurvivor" FILE="../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/BP_PlayerSurvivor.uasset" SILENT=true
+[2023.11.16-03.15.12:958][577]LogSavePackage: Moving output files for package: /Game/Aspect/BP_PlayerSurvivor
+[2023.11.16-03.15.12:958][577]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/BP_PlayerSurvivor549140AD475E908EEA7CF586D8C680E6.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/BP_PlayerSurvivor.uasset'
+[2023.11.16-03.15.12:964][577]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 1.86 sec)
+[2023.11.16-03.15.12:966][577]AssetCheck: New page: Asset Save: BP_PlayerSurvivor
+[2023.11.16-03.15.12:966][577]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Aspect/BP_PlayerSurvivor.BP_PlayerSurvivor
+[2023.11.16-03.16.43:108][ 33]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Aspect/GameInstance.GameInstance
+[2023.11.16-03.16.43:109][ 33]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.16-03.16.43:109][ 33]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.16-03.17.03:453][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.16-03.17.03:456][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.17.03:502][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Aspect/GameInstance" FILE="../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/GameInstance.uasset" SILENT=true
+[2023.11.16-03.17.03:504][328]LogSavePackage: Moving output files for package: /Game/Aspect/GameInstance
+[2023.11.16-03.17.03:504][328]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/GameInstanceE8B880CC4125BA21511102B38209FE1F.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/GameInstance.uasset'
+[2023.11.16-03.17.03:508][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.91 sec)
+[2023.11.16-03.17.03:509][328]AssetCheck: New page: Asset Save: GameInstance
+[2023.11.16-03.17.03:509][328]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Aspect/GameInstance.GameInstance
+[2023.11.16-03.17.04:846][489]BlueprintLog: New page: Compile GameInstance
+[2023.11.16-03.17.04:857][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.16-03.17.05:256][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.17.05:303][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Aspect/GameInstance" FILE="../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/GameInstance.uasset" SILENT=true
+[2023.11.16-03.17.05:304][534]LogSavePackage: Moving output files for package: /Game/Aspect/GameInstance
+[2023.11.16-03.17.05:305][534]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/GameInstance83A33ABC40282E7F04A0BEBD789C366A.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/GameInstance.uasset'
+[2023.11.16-03.17.05:308][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.96 sec)
+[2023.11.16-03.17.05:309][534]AssetCheck: New page: Asset Save: GameInstance
+[2023.11.16-03.17.05:309][534]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Aspect/GameInstance.GameInstance
+[2023.11.16-03.17.05:843][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.16-03.17.19:996][249]BlueprintLog: New page: Compile GameInstance
+[2023.11.16-03.17.20:004][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.16-03.18.04:147][160]BlueprintLog: New page: Compile GameInstance
+[2023.11.16-03.18.04:157][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.11.16-03.18.04:534][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.18.04:569][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Aspect/GameInstance" FILE="../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/GameInstance.uasset" SILENT=true
+[2023.11.16-03.18.04:572][202]LogSavePackage: Moving output files for package: /Game/Aspect/GameInstance
+[2023.11.16-03.18.04:573][202]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/GameInstance571A2378486617D4932D3DA05AE43339.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/GameInstance.uasset'
+[2023.11.16-03.18.04:576][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 2.00 sec)
+[2023.11.16-03.18.04:577][202]AssetCheck: New page: Asset Save: GameInstance
+[2023.11.16-03.18.04:577][202]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Aspect/GameInstance.GameInstance
+[2023.11.16-03.18.05:147][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.11.16-03.18.05:882][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.11.16-03.18.48:309][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.11.16-03.18.48:312][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.16-03.18.48:369][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Aspect/GameInstance" FILE="../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/GameInstance.uasset" SILENT=true
+[2023.11.16-03.18.48:372][536]LogSavePackage: Moving output files for package: /Game/Aspect/GameInstance
+[2023.11.16-03.18.48:372][536]LogSavePackage: Moving '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Saved/GameInstanceC56389C449C9056377708A84972D6D91.tmp' to '../../../../../../Users/minec/Documents/GitHub/UntitledProject/Content/Aspect/GameInstance.uasset'
+[2023.11.16-03.18.48:375][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 2.07 sec)
+[2023.11.16-03.18.48:377][536]AssetCheck: New page: Asset Save: GameInstance
+[2023.11.16-03.18.48:377][536]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Aspect/GameInstance.GameInstance
+[2023.11.16-03.19.03:855][753]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/minec/Documents/GitHub/UntitledProject/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2023.11.16-03.19.03:855][753]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/minec/Documents/GitHub/UntitledProject/Content/Developers/minec/Collections/' because it could not be accessed. Aborting watch request...
+[2023.11.16-03.19.03:855][753]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/minec/Documents/GitHub/UntitledProject/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2023.11.16-03.19.06:527][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
